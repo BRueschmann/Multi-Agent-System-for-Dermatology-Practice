@@ -1,5 +1,5 @@
 # ─────────────────────────────────────────────────────────────────────────────
-#  Dermatology multi‑agent system for healthcare - MASH - demo (sorry for few comments)
+#  Dermatology multi‑agent system for healthcare - MASH - demo
 # ─────────────────────────────────────────────────────────────────────────────
 
 # How to Run:
@@ -19,6 +19,7 @@ from openai import OpenAI
 from transformers import pipeline
 from PIL import Image
 
+# Sorry for few comments
 # 0) OpenAI client
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
